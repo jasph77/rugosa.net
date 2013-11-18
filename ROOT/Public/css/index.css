@@ -1,0 +1,427 @@
+body  {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  background-color: #fefce2;
+  background-image: url(http://www.312green.com/img/site/systemp/3/130552944683.jpg);
+  background-repeat: repeat-x;
+  background-position: center top;
+}
+
+#header,#container,#footer  {
+  	width:960px;
+}
+
+a:link, a:visited {
+  color: #000091;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff0000;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #000091;
+}
+
+.mnlink:link, .mnlink:visited, .mnlink:active {
+  text-decoration:none;
+}
+
+#sidebar {
+  float: left;
+  width: 245px;
+}
+
+#maincontent {
+  float: right;
+}
+
+#maincontent {
+  width: 715px;
+}
+
+.twocol li, .line_dot {
+border-bottom-width: 1px;
+border-bottom-style: dotted;
+border-bottom-color: #f0f0f0;
+}
+
+.twocol .tpic {
+border: 1px dotted #f0f0f0;
+}
+
+.container_in {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-image: url(http://www.312green.com/img/site/systemp/3/130553063935.jpg);
+  padding-top: 8px;
+}
+
+.banner {
+  height: 140px;
+  background: url(http://www.312green.com/img/site/systemp/3/130552980549.jpg) no-repeat center top ;
+}
+
+.banner .companyname {
+  margin-top: 40px;
+}
+
+.banner .companyname h2 {
+  color: #ffffff;
+}
+
+.footer_in {
+  background-color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  background: url(http://www.312green.com/img/site/systemp/3/130553076245.jpg) no-repeat left top ;
+  padding-top: 30px;
+  height: 102px;
+}
+
+.footer_in a:link ,.footer_in a:visited ,.footer_in a:hover,.footer_in a:active {
+  color: #464646;
+}
+
+.nav {
+  background: url(http://www.312green.com/img/site/systemp/3/130553129380.jpg) no-repeat left top ;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  padding-left: 80px;
+  width: 880px;
+  height: 42px;
+}
+
+.main_menu  ul li {
+	float:left; 
+}
+
+.main_menu ul li.normal {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  background-image: none;
+  margin-top: 3px;
+  margin-right: 2px;
+  margin-left: 2px;
+  height: 36px;
+  width: 91px;
+}
+
+.main_menu ul li.normal a:link ,.main_menu ul li.normal a:visited ,.main_menu ul li.normal a:hover,.main_menu ul li.normal a:active {
+  color: #ffffff;
+}
+
+.main_menu ul li.active {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  background-image: none;
+  margin-top: 3px;
+  margin-right: 2px;
+  margin-left: 2px;
+  height: 36px;
+  width: 91px;
+}
+
+.main_menu ul li.active a:link ,.main_menu ul li.active a:visited ,.main_menu ul li.active a:hover,.main_menu ul li.active a:active {
+  color: #ffffff;
+}
+
+#mid {
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+#path {
+  background-color: #d63706;
+  color: #aaaaaa;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  display: block;
+  background: url(http://www.312green.com/img/site/systemp/3/130559407090.jpg)  no-repeat left top ;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 15px;
+  padding-top: 3px;
+  padding-left: 25px;
+  height: 25px;
+  width: 650px;
+}
+
+#sidebar {
+  background-repeat: repeat-y;
+  background-position: left top;
+  background-image: url(http://www.312green.com/img/site/systemp/3/130553069402.jpg);
+}
+
+.title_a {
+  background: url(http://www.312green.com/img/site/systemp/3/130558874970.jpg)  no-repeat left top ;
+  margin-top: 20px;
+  margin-right: 35px;
+  margin-left: 30px;
+  height: 36px;
+  width: 245px;
+}
+
+.title_a h3  {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.border_a {
+  background: url(http://www.312green.com/img/site/systemp/3/130558915551.jpg)  no-repeat left top ;
+  background-repeat: no-repeat;
+  background-position: left top;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #89a420;
+  border-right-color: #89a420;
+  border-bottom-color: #89a420;
+  border-left-color: #89a420;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  margin-right: 35px;
+  margin-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  width: 140px;
+}
+
+.ul_a li.normal {
+  background: url(http://www.312green.com/img/site/systemp/3/130558925032.jpg)  no-repeat left top ;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 5px;
+  padding-top: 6px;
+  padding-left: 25px;
+  height: 21px;
+  width: 115px;
+}
+
+.ul_a li.normal a:link ,.ul_a li.normal a:visited ,.ul_a li.normal a:hover,.ul_a li.normal a:active {
+  color: #000000;
+}
+
+.ul_a li.active {
+  background: url(http://www.312green.com/img/site/systemp/3/130558928093.jpg)  no-repeat left top ;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 5px;
+  padding-top: 6px;
+  padding-left: 25px;
+  height: 21px;
+  width: 115px;
+}
+
+.ul_a li.active a:link ,.ul_a li.active a:visited ,.ul_a li.active a:hover,.ul_a li.active a:active {
+  color: #19af05;
+}
+
+.ul_b li.normal {
+  background-image: none;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 2px;
+  padding-top: 5px;
+  padding-left: 25px;
+  height: 19px;
+  width: 115px;
+}
+
+.ul_b li.normal a:link ,.ul_b li.normal a:visited ,.ul_b li.normal a:hover,.ul_b li.normal a:active {
+  color: #000000;
+}
+
+.ul_b li.active {
+  background-image: none;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 2px;
+  padding-top: 5px;
+  padding-left: 25px;
+  height: 19px;
+  width: 115px;
+}
+
+.ul_b li.active a:link ,.ul_b li.active a:visited ,.ul_b li.active a:hover,.ul_b li.active a:active {
+  color: #f80c0c;
+}
+
+.ul_c li {
+  background-image: none;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+  height: 28px;
+}
+
+.ul_c li a:link ,.ul_c li a:visited ,.ul_c li a:hover,.ul_c li a:active, .ul_c td {
+  color: #000000;
+}
+
+.ul_d li {
+  background-image: none;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  padding-top: 6px;
+  height: 26px;
+}
+
+.ul_b li a:link ,.ul_b li a:visited ,.ul_b li a:hover,.ul_b li a:active {
+}
+
+#maincontent {
+  background-repeat: repeat-y;
+  background-position: right bottom;
+  background-image: url(http://www.312green.com/img/site/systemp/3/130553070249.jpg);
+}
+
+.title_b {
+  height: 0px;
+  background-image: none;
+  width: 715px;
+  height: 0px;
+}
+
+.title_b h3  {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.border_b {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  margin-right: 35px;
+  margin-left: 15px;
+  padding-bottom: 15px;
+  width: 665px;
+}
+
+.adone {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.adtwo {
+}
+
+#adfloat {
+}
+
+#adscroll {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+#adscroll .admarquee {
+  width: 960px;
+}
+
+#adserver {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+.pictitem .picpic, .pictitem_small .picpic {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-color: #ffffff;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #b4b4b4;
+  border-right-color: #b4b4b4;
+  border-bottom-color: #b4b4b4;
+  border-left-color: #b4b4b4;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+.pictitem .picname, .pictitem_small .picname {
+  background: url(http://www.312green.com/img/site/systemp/3/130276653759.jpg)  no-repeat left top ;
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.picname a:link ,.picname a:visited ,.picname a:hover,.picname a:active {
+}
+
+.detailtheme h1  {
+  background-image: none;
+  color: #048833;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  height: 28px;
+}
+
+.detailtime, .detailpic {
+  text-align: left;
+}
+
+.table_head {
+  background-color: #e6e6e6;
+}
+
+.table_gridline {
+  background-color: #969696;
+}
+
+.table_all td {
+  font-size: 12px;
+}
+
