@@ -1,26 +1,26 @@
-/* ×¢Òâ
-pngÔÚIE6ÖĞÍ¸Ã÷ÂË¾µÉÏÁ´½ÓÊ§Ğ§µÄÎÊÌâ£¬Á´½ÓµÄÉÏ¼¶ÈİÆ÷ height: 260px; ºÍ position: relative; ²»ÄÜÍ¬Ê±ÉèÖÃ£¬¼ÙÈçÍ¬Ê±ÉèÖÃ£¬Á´Á´¾ÍÊ§Ğ§£¬Ö»ÓĞÒ»¸ö£¬ÔòÕıÈ·¡£
-Í¬Ê±£¬a Ó¦ÉèÖÃ³É  position:relative;
+/* æ³¨æ„
+pngåœ¨IE6ä¸­é€æ˜æ»¤é•œä¸Šé“¾æ¥å¤±æ•ˆçš„é—®é¢˜ï¼Œé“¾æ¥çš„ä¸Šçº§å®¹å™¨ height: 260px; å’Œ position: relative; ä¸èƒ½åŒæ—¶è®¾ç½®ï¼Œå‡å¦‚åŒæ—¶è®¾ç½®ï¼Œé“¾é“¾å°±å¤±æ•ˆï¼Œåªæœ‰ä¸€ä¸ªï¼Œåˆ™æ­£ç¡®ã€‚
+åŒæ—¶ï¼Œa åº”è®¾ç½®æˆ  position:relative;
 */
 
-/* Í¨ÓÃ */
-body,ul,ol,li,p,h1,h2,h3,ul,form{  font-family: "ËÎÌå";margin:0px; padding:0px;}
+/* é€šç”¨ */
+body,ul,ol,li,p,h1,h2,h3,ul,form{  font-family: "å®‹ä½“";margin:0px; padding:0px;}
 li{ list-style:none}
 img{ border:0}
-input,textarea,select {  font-family: "ËÎÌå"; font-size: 12px}
+input,textarea,select {  font-family: "å®‹ä½“"; font-size: 12px}
 .zt1 {
-	font-family: "ËÎÌå";
+	font-family: "å®‹ä½“";
 	font-size: 12px;
 	font-weight: normal;
 }
 .zt2 {
-	font-family: "ËÎÌå";
+	font-family: "å®‹ä½“";
 	font-size: 14px;
 	font-weight: normal;
 }
-.zt2b {font-family: "ËÎÌå"; font-size: 14px; font-weight: bold}
+.zt2b {font-family: "å®‹ä½“"; font-size: 14px; font-weight: bold}
 .zt3 {
-	font-family: "ËÎÌå";
+	font-family: "å®‹ä½“";
 	font-size: 16px;
 	font-weight: normal;
 }
@@ -41,7 +41,7 @@ input,textarea,select {  font-family: "ËÎÌå"; font-size: 12px}
 .lh175 {line-height:175%; }
 .box_gray{padding: 5px;	border: 1px solid #CCCCCC;}
 
-.line_dot{ /*ĞéÏßĞĞ */
+.line_dot{ /*è™šçº¿è¡Œ */
 	position: relative; 
 	margin-top:3px;
 	margin-bottom:5px;
@@ -51,7 +51,7 @@ input,textarea,select {  font-family: "ËÎÌå"; font-size: 12px}
 	position:relative;
 }
 
-/* ×Ü¿ò¿ò */
+/* æ€»æ¡†æ¡† */
 html {
 	overflow-x:hidden; 
 }
@@ -88,7 +88,7 @@ body {
 }
 
 
-/* banner ÉÏ·½À¸ */
+/* banner ä¸Šæ–¹æ  */
 .banner {
 	position: relative;
 	background-repeat: no-repeat;
@@ -105,11 +105,11 @@ body {
 }
 .banner .companyname h2 {
 	display: inline;
-	FONT-FAMILY: ºÚÌå;
+	FONT-FAMILY: é»‘ä½“;
 	FONT-SIZE: 40px;
 }
 
-/* Ö÷²Ëµ¥ main_menu */
+/* ä¸»èœå• main_menu */
 .main_menu{
 	float:left; 
 	overflow:hidden;
@@ -134,7 +134,7 @@ body {
 	line-height:normal;
 }
 
-/* ÄÚÈİ¿éĞÅÏ¢ */
+/* å†…å®¹å—ä¿¡æ¯ */
 #maincontent {
 	position: relative;
 	float: right;
@@ -142,7 +142,7 @@ body {
 	overflow: hidden;
 }
 
-/* µ¼º½ */
+/* å¯¼èˆª */
 #sidebar {
 	position: relative;
 	float: left;
@@ -150,7 +150,7 @@ body {
 	overflow: hidden;
 }
 
-/* ĞÅÏ¢¿ò */
+/* ä¿¡æ¯æ¡† */
 .ibox {
 	position: relative;
 	float:left;
@@ -169,7 +169,7 @@ body {
 	line-height:150%;
 }
 
-/* ÁĞ±íÏî a ±ß²àµ¼º½ÁĞ±í  b  ±ß²à×Óµ¼º½ÁĞ±í  c ±ß²àĞÅÏ¢ÁĞ±í d Ö÷²àĞÅÏ¢ÁĞ±í */
+/* åˆ—è¡¨é¡¹ a è¾¹ä¾§å¯¼èˆªåˆ—è¡¨  b  è¾¹ä¾§å­å¯¼èˆªåˆ—è¡¨  c è¾¹ä¾§ä¿¡æ¯åˆ—è¡¨ d ä¸»ä¾§ä¿¡æ¯åˆ—è¡¨ */
 .ul_a, .ul_b, .ul_c, .ul_d {
 	width:100%;
 }
@@ -203,7 +203,7 @@ body {
 .listc li, .listd li {
 	line-height:normal;
 }
-/* ÄÚÈİ¿é */
+/* å†…å®¹å— */
 .itembox{
 	font-size: 14px;
 	padding-top: 12px;
@@ -259,7 +259,7 @@ body {
 	font-size: 14px;
 }
 
-/* Í¼Æ¬µ¥Ôª ´óĞ¡ */ 
+/* å›¾ç‰‡å•å…ƒ å¤§å° */ 
 .pictitem, .pictitem_small{
 	float:left;
 	text-align:center;
@@ -308,7 +308,7 @@ body {
 	line-height:normal;
 }
 
-/* ¹ö¶¯Í¼Æ¬ */
+/* æ»šåŠ¨å›¾ç‰‡ */
 #scroll_div {
 	position:relative;
 	overflow: hidden; 
@@ -316,7 +316,7 @@ body {
 	color: #ffffff
 }
 
-/* ²éÑ¯¿ò */
+/* æŸ¥è¯¢æ¡† */
 .querybox {
 	text-align: left;
 	margin-top: 20px;
@@ -326,7 +326,7 @@ body {
 }
 
 
-/* ÏêÏ¸ĞÅÏ¢ */
+/* è¯¦ç»†ä¿¡æ¯ */
 .detailbox{
 	text-align: left;
 	margin: 0px;
@@ -358,7 +358,7 @@ body {
 	text-align: center;
 }
 
-/* µ±Ç°×ÓÀàÄ¿Ãû³ÆÏÔÊ¾ */
+/* å½“å‰å­ç±»ç›®åç§°æ˜¾ç¤º */
 .ctil h2{
 	color:#000000;
 	text-align: center;
@@ -368,7 +368,7 @@ body {
 	overflow: visible;
 }
 
-/* ¼Û¸ñ±íÒÑ·¢²¼ÓĞ¼Û¸ñµÄ²úÆ·³Æ */
+/* ä»·æ ¼è¡¨å·²å‘å¸ƒæœ‰ä»·æ ¼çš„äº§å“ç§° */
 .pricelm{
 	margin:5px;
 }
@@ -397,7 +397,7 @@ body {
 	text-decoration: underline;
 }
 
-/* ·ÖÀàÄ¿Í³¼ÆÏÔÊ¾ */
+/* åˆ†ç±»ç›®ç»Ÿè®¡æ˜¾ç¤º */
 .pnav {
 	text-align: left;
 	font-size: 12px;
@@ -430,7 +430,7 @@ body {
 }
 
 
-/* ÓÑÇéÁ´½Ó */
+/* å‹æƒ…é“¾æ¥ */
 .textlink ul, .logolink ul {
 	margin: 0px;
 	padding: 0px;
@@ -453,19 +453,19 @@ body {
 	width:133px;
 }
 
-/* Í¼ĞÎ¹ã¸æ */
+/* å›¾å½¢å¹¿å‘Š */
 .adone, .adtwo {
 	float:left;
 	text-align: center;	
 }
 
-/*±í¸ñÊ½ */ 
+/*è¡¨æ ¼å¼ */ 
 .table_head,.table_row_odd,.table_row_couple {
 	height: 28px;
   	background-color: #ffffff;
 }
 
-/* ÁªÏµ·½Ê½ ĞÅÓÃÈÏÖ¤µÈÁ½Àû±í¸ñ */
+/* è”ç³»æ–¹å¼ ä¿¡ç”¨è®¤è¯ç­‰ä¸¤åˆ©è¡¨æ ¼ */
 .twocol {
 	text-align: left;
 	line-height: 150%;
@@ -533,7 +533,7 @@ body {
 	left:-50%;
 }
 
-/* Ê×Ò³Í¼Æ¬ */
+/* é¦–é¡µå›¾ç‰‡ */
 .homepic {
 	float:left;
 	position:relative;
@@ -546,7 +546,7 @@ body {
 	background-color:#FFFFFF;
 }
 
-/* Æ¯¸¡¹ã¸æ */
+/* æ¼‚æµ®å¹¿å‘Š */
 #adfloat {
 	position:absolute;
 	left:100px;
@@ -555,7 +555,7 @@ body {
 	visibility: visible;
 }
 
-/* ¹ö¶¯ÎÄ×Ö */
+/* æ»šåŠ¨æ–‡å­— */
 #adscroll {
 	position:absolute;
 	left:0px;
@@ -564,7 +564,7 @@ body {
 	visibility: visible;
 }
 
-/* ÔÚÏß¿Í·ş */
+/* åœ¨çº¿å®¢æœ */
 #adserver {
 	position:fixed;
 	z-index:10;
@@ -576,7 +576,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-/* Ò³ºÅµ¼º½ */
+/* é¡µå·å¯¼èˆª */
 .pagination{
 	height:25px;
 	font-family:Tahoma;
